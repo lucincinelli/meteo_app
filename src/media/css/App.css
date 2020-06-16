@@ -1,0 +1,121 @@
+div.App{
+  background-color:#fff74f;
+  height:100vh;
+  width:100vw;
+  max-height:100vh;
+  max-width:100vw;
+}
+
+div.container{
+  width:94%;
+  height: 90%;
+  padding:3%;
+}
+
+header{
+  height:20%;
+  
+}
+  header article{
+    width:80%;
+    display:inline-block;
+  }  
+    header article input{
+      width:92.5%;
+      margin:0% 2% 0 0;
+      background-color:#fff74f;
+      border-width:0px 0px 1px 0px;
+      border-bottom:1px solid black;
+      padding:2% 0 2% 0;
+      font-size:2em;
+      color:black;
+      text-transform: uppercase;
+    }
+    header article input:focus{
+      outline:none;
+    }
+  header aside{
+    width:20%;
+    height:100%;
+    display:inline-block;
+    text-align: center;
+  }
+    header aside input{
+      width:75%;
+      background-color:#32354c;
+      padding:8% 0 8% 0;
+      height:100%;
+      border:0px;
+      color:#8692a6;
+      font-size:2em;
+      cursor:pointer;
+    }
+
+main{
+  height:50%;
+}
+main aside{
+  display:flex;
+
+}
+  main aside div{
+    width:75%;
+  }
+    main aside div h2{
+      font-size:8em;
+      margin-top:-2%;
+      font-weight:350;
+    }
+  main article{
+    width:100%;
+  }
+    main article h1{
+      font-weight: 100;
+      border-bottom: 1px solid black;
+      text-transform: uppercase;
+      font-size:3em;
+      color:grey;
+      letter-spacing: 2px;
+    }
+main aside aside{
+  display:flex;
+  flex-direction: column;
+  width:25%;
+  text-align:right;
+
+}
+main aside aside article{
+  margin-top:12.5%;
+}
+main aside aside article p{
+  font-size:1.8em;
+  margin-top:0%;
+  margin-bottom:0%;
+  color:grey;
+  font-weight:350;
+  letter-spacing: 1px;
+}
+
+footer{
+  height:17%;
+}
+
+  footer div{
+    width:100%;
+  }
+    footer div table{
+      width:100%;
+      text-align:center;
+    }
+      footer div table tr th{
+        font-size:2em;
+        font-weight:350;
+        color:grey;
+      }
+      footer div table tr td.max{
+        font-size:3em;
+      }
+      footer div table tr td.min{
+        font-size:1.8em;
+        color:grey;
+      }
